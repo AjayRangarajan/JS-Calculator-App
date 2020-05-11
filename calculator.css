@@ -1,0 +1,33 @@
+body{
+    background-color: cyan;
+}
+
+.container{
+    text-align: center;
+}
+
+
+table,td{
+    border: 1px solid blue;
+}
+
+input[type='button']{
+    width: 100%;
+    height: 100%;
+    background-color: turquoise;
+    font-size: xx-large;
+}
+
+input[type='text']{
+    width: 100%;
+    height: 100%;
+    background-color: whitesmoke;
+    font-size: xx-large;
+}
+
+.table{
+    margin: auto;
+    width: 400px;
+    height: 300px;
+    color: black;
+}

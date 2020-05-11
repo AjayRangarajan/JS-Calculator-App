@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculator</title>
+    </head>
+    <link rel="stylesheet" href="calculator.css" />
+    <script src="calculator.js"></script>
+    <body>
+        <div class="container">
+            <h1>Calculator</h1>
+            <table class="table">
+                <tr>
+                    <td colspan="3"><input type="text" id="result"/></td>
+                    <td><input type="button" onclick="clr()" value="CLR" /></td>
+                </tr>
+                <tr>
+                    <td><input type="button" onclick='val("1")' value="1" /></td>
+                    <td><input type="button" onclick='val("2")' value="2" /></td>
+                    <td><input type="button" onclick='val("3")' value="3" /></td>
+                    <td><input type="button" onclick='val("+")' value="+" /></td>
+                </tr>
+                <tr>
+                    <td><input type="button" onclick='val("4")' value="4" /></td>
+                    <td><input type="button" onclick='val("5")' value="5" /></td>
+                    <td><input type="button" onclick='val("6")' value="6" /></td>
+                    <td><input type="button" onclick='val("-")' value="-" /></td>
+                </tr>
+                <tr>
+                    <td><input type="button" onclick='val("7")' value="7" /></td>
+                    <td><input type="button" onclick='val("8")' value="8" /></td>
+                    <td><input type="button" onclick='val("9")' value="9" /></td>
+                    <td><input type="button" onclick='val("*")' value="*" /></td>
+                </tr>
+                <tr>
+                    <td><input type="button" onclick='val("0")' value="0" /></td>
+                    <td><input type="button" onclick='val(".")' value="." /></td>
+                    <td><input type="button" onclick='equals("=")' value="=" /></td>
+                    <td><input type="button" onclick='val("/")' value="/" /></td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>
